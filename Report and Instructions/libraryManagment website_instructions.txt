@@ -1,0 +1,22 @@
+ 
+librarian: 
+	username: librarian
+	password: password
+
+ member:(example member details to login as a member)
+	username: Amali
+	password: Apass
+
+after the registration of a user, librarian should verify that particular user. 
+then only user can be a member which means then only members can login.
+
+In the development, have taken some assumptions for some set of sides. 
+when you go through the webapplication, you can identify them.
+
+Focused on: 	basic operations of a library
+		form validation using javascript
+
+technologies: PHP, javascript, html, css, mySQL database, XAMPP
+
+****keep in your mind to save this codind files in htdocs folder in XAMPP ****
+		

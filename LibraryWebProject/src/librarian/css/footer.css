@@ -1,0 +1,45 @@
+/*-----------------------------------------------------------------------------------------------------------------------------
+Footer page starts from here*/
+
+footer{
+	height: 180px;
+	width: device-width;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer nav #fnav{
+	position: bottom;
+	width: device-width;
+	margin: 0 auto;
+	background: #000000;
+	z-index: 1;
+	text-align: right;
+	padding-right: 2%;
+}
+.fmenu-area li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/*This has used to design the font of the footer(menu area) bar*/
+.fmenu-area a {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;    
+}
+
+/*This has used to insert a color when we are clicking the icons of the navigation bar*/
+.fmenu-area a:hover {
+  background: deeppink;
+  color: #fff;
+}

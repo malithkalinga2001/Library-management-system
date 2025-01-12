@@ -1,0 +1,186 @@
+/*-----------------------------------------------------------------------------------------------------------------------------
+This is for contact us page. I studied those codes by helping youtube (https://www.youtube.com/watch?v=gggB0Nq5vBk)*/
+	
+	.contact{	
+	min-height: 60%;
+	padding: 70px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;/*if this will not include, contant us heading and below paragraph come to the in front of the form*/
+	height: 60%;
+	width: device-width;
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px;
+	margin-top: 0%;
+	}
+	
+	.contact .content
+	{
+	max-width: device-width;
+	text-align: center;
+	margin-left: 0%;
+	margin-top: 20%;
+	
+	}
+
+/*I have changed the style of h2 which is include in contact us page*/
+	.contact .content h2
+	{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+	margin-top: 15%;
+	
+	}
+
+/*I have changed the style of p which is under contact us heading and it is include in contact us page*/	
+	.contact .content p
+	{
+	font-weight: 500;
+	color: #fff;
+	}
+
+/*I have designed the container of div tag which is include in contact us page*/	
+	.container2
+	{
+	width: device-width;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	margin-left: 50%;
+	margin-right: 50%;
+	}
+	
+
+
+/*below code will help to change location of the phone, email.. icons like a column*/
+	.container2 .contactInfo2
+	{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	}
+
+/*here, I have styled the box of div icon which is include in contact us page*/	
+	.container2 .contactInfo2 .box
+	{
+	position: relative;
+	padding: 10px 50px;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: -20px;
+	}
+
+/*this was helped to put icins(phone, mail,...) to the circle*/
+	.container2 .contactInfo2 .box .icon
+	{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+	margin-top: -10px;
+	}
+	
+	.container2 .contactInfo2 .box .text
+	{
+	margin-bottom: 50px;
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+	}
+	
+/*according to this h3 has changed in the contact us page*/
+	.container2 .contactInfo2 .box .text h3
+	{
+	font-weight: 500;
+	color: #00bcd4;
+	}
+/*below I have modify the form of contact us*/
+	.contactForm
+	{
+	width: 40%;
+	padding: 40px;
+	padding-top:20px;
+	padding-bottom: 40px;
+	background: #fff;
+	margin-bottom: 80px;
+	margin-right: -50px;
+	margin-left:70px;
+	}
+	
+	.contactForm h2
+	{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+	text-align: left;
+	}
+	
+	.contactForm .inputBox
+	{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	}
+	
+/*Here I have changed the box type of form inputs*/
+	.contactForm .inputBox  input,
+	.contactForm .inputBox  textarea
+	{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+	}
+
+/*Here modification is that we can write on the words of text boxes of the form which is included in contact us form*/
+	.contactForm .inputBox span
+	{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+	}
+
+/*This was helped to, when we are typing in the text boxes tha name are moving to up and are going to be small*/
+	.contactForm .inputBox input:focus ~ span,
+	.contactForm .inputBox input:valid ~ span,
+	.contactForm .inputBox textarea:focus ~ span,
+	.contactForm .inputBox textarea:valid ~ span
+	{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+	}
+	
+	.contactForm .inputBox input[type="submit"]
+	{
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	}

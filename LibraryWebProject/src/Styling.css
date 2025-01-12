@@ -1,0 +1,735 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@keyframes fadeIn {
+	0%{
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------
+This is for login page.*/
+
+.allTheThings #ass{
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  margin: 8em auto;
+  font-size: 1.3rem;
+  color: #94aab0;
+  display: block;
+  background-color: white;
+}
+
+.loga{
+	color: #94aab0;
+	text-decoration: none;
+}
+
+#member{
+	display: inline-block;
+}
+
+#verticalLine {
+	display: inline-block;
+	margin-left: 20px;
+    border-left: solid #343642;
+}
+
+#librarian-link{
+	margin-left: 20px;
+}
+
+#member, #librarian
+{
+	transition: all .2s ease-in-out;
+}
+
+#member:hover, #librarian:hover
+{
+	transform: scale(1.1);
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+.adjust{
+	height: 840px;
+	width: device-width;
+	overflow: hidding;
+	
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------
+home moving ads bar starts from here*/
+
+
+.boxes{
+	background-color: black;
+	background: rgba(0, 0, 0, .8);
+	height: 900px;
+	width: 80%;
+	margin: 5px auto;
+	
+}
+.homeAdBox1{
+	
+	height: 50px;
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.homeAdBox1 h2{
+	font-size:35px;
+	text-align:center;
+	color: white;
+	padding-top: 10px;
+}
+.homeAdBox2{
+	height: 500px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.homeAdBox2 .slide{
+   text-align: center;
+   padding:0rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-size: cover !important;
+   background-position: center !important;
+   width: 100%;
+   min-height: 500px;
+}
+
+.homeAdBox2 .slide .Slidecontent{
+   width: 85rem;
+   display:none;
+}
+.homeAdBox2 .swiper-slide-active .Slidecontent{
+   display: inline-block;
+}
+
+.homeAdBox2 .slide .Slidecontent .slideSpan{
+   display: block;
+   font-size: 1.7rem;
+   color: white;
+   padding-bottom: 1rem;
+   animation: fadeIn .2s linear backwards .2s;
+}
+
+.homeAdBox2 .slide .Slidecontent h3{
+   font-size: 3.2vw;
+   color:white;
+   text-transform: uppercase;
+   line-height: 1;
+   text-shadow: text-shadow;
+   padding:1rem 0;
+   animation: fadeIn .2s linear backwards .4s;
+}
+
+.homeAdBox2 .slide .Slidecontent .btn{
+   animation: fadeIn .2s linear backwards .6s;
+   margin-top: 2rem;
+   background: white;
+   color:#322c2c;
+   cursor: pointer;
+   
+}
+.homeAdBox2 .slide .Slidecontent .btn:hover{
+   background: #322c2c;
+   color: white;
+}
+
+
+.homeAdBox2 .swiper-button-next, .homeAdBox2 .swiper-button-prev{
+   top: inherit;
+   left: inherit;
+   bottom: 0;
+   right: 0;
+   height: 4rem;
+   width: 4rem;
+   background: #c0d8e9;
+   color: black;
+}
+
+.homeAdBox2 .swiper-button-next:hover, 
+.homeAdBox2 .swiper-button-prev:hover{
+   background: #0a0402;
+   color:white;
+}
+
+.homeAdBox2 .swiper-button-next::after, 
+.homeAdBox2 .swiper-button-prev::after{
+   font-size: 2rem;
+}
+
+.homeAdBox2 .swiper-button-prev{
+   right: 4rem;
+}
+
+
+.homeAdBox3{
+	height: 200px;
+	width: 100%;
+	margin: 35px auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.homeAdBox3 .homeAdBoxSub1{
+	height: 220px;
+	width: 32%;
+	text-align: center;
+	margin: -20px 3%;
+	color: white;
+}
+.homeAdBox3 .homeAdBoxSub2{
+	height: 220px;
+	width: 32%;
+	text-align: center;
+	margin: -220px 33.5%;
+	color: white;
+}
+.homeAdBox3 .homeAdBoxSub3{
+	height: 220px;
+	width: 32%;
+	text-align: center;
+	margin: -219px 64%;
+	color: white;
+}
+.homeAdBox3 h2{
+	font-size: 27px;
+}
+.homeAdBox3 p{
+	border:1px solid #cccccc;
+	height: 220px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------
+navigation bar starts from here*/
+
+header{
+	height: 60px;
+	width: device-width;
+	background-color: black;
+	text-align: right;
+	
+	/*this is used to carry the navigation ribbon when we scrol down*/
+   position: sticky;
+   top:0; left:0; right:0;
+   z-index: 1000;
+
+}
+
+#menu-btn{
+   font-size: 2.5rem;
+   cursor: pointer;
+   color:white;
+   display: none;
+} 
+
+/*This has used for paddind the navigation bar*/
+header .navbar{
+  padding-top: center;
+  position: right;
+}
+
+/*This has used to design the navigation bar. just like giving shape, color,etc */
+nav .anav{
+ position: relative;
+ width: calc(100% - 60px);
+ margin: 0 auto;
+ background: #000000;
+ z-index: 1;
+ text-align: right;
+ padding-right: 2%;
+}
+
+/*This has used to add and design logo*/
+.logo {
+  width: 25%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+/*This has used to remove for showing the menu icons of navigation bar one by noe as a list. So it is designning inthis part */
+.menu-area li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/*This has used to design the font of the navigation(menu area) bar*/
+.menu-area a {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;    
+}
+
+/*This has used to insert a color when we are clicking the icons of the navigation bar*/
+.menu-area a:hover {
+  background: deeppink;
+  color: #fff;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------
+Footer page starts from here*/
+
+footer{
+	height: 180px;
+	width: device-width;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer nav #fnav{
+	position: bottom;
+	width: device-width;
+	margin: 0 auto;
+	background: #000000;
+	z-index: 1;
+	text-align: right;
+	padding-right: 2%;
+}
+.fmenu-area li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/*This has used to design the font of the footer(menu area) bar*/
+.fmenu-area a {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;    
+}
+
+/*This has used to insert a color when we are clicking the icons of the navigation bar*/
+.fmenu-area a:hover {
+  background: deeppink;
+  color: #fff;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------
+This is for login page.*/
+
+.allTheThings{
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  margin: 8em auto;
+  font-size: 1.3rem;
+  color: #94aab0;
+  display: none;
+  background-color: white;
+}
+
+.loga{
+	color: #94aab0;
+	text-decoration: none;
+}
+
+#member{
+	display: inline-block;
+}
+
+#verticalLine {
+	display: inline-block;
+	margin-left: 20px;
+    border-left: solid #343642;
+}
+
+#librarian-link{
+	margin-left: 20px;
+}
+
+#member, #librarian
+{
+	transition: all .2s ease-in-out;
+}
+
+#member:hover, #librarian:hover
+{
+	transform: scale(1.1);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------
+This is for contact us page. I studied those codes by helping youtube (https://www.youtube.com/watch?v=gggB0Nq5vBk)*/
+	
+	.contact{	
+	min-height: 60%;
+	padding: 70px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;/*if this will not include, contant us heading and below paragraph come to the in front of the form*/
+	height: 60%;
+	width: device-width;
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px;
+	margin-top: 0%;
+	}
+	
+	.contact .content
+	{
+	max-width: device-width;
+	text-align: center;
+	margin-left: 0%;
+	margin-top: 20%;
+	
+	}
+
+/*I have changed the style of h2 which is include in contact us page*/
+	.contact .content h2
+	{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+	margin-top: 15%;
+	
+	}
+
+/*I have changed the style of p which is under contact us heading and it is include in contact us page*/	
+	.contact .content p
+	{
+	font-weight: 500;
+	color: #fff;
+	}
+
+/*I have designed the container of div tag which is include in contact us page*/	
+	.container2
+	{
+	width: device-width;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	margin-left: 50%;
+	margin-right: 50%;
+	}
+	
+
+
+/*below code will help to change location of the phone, email.. icons like a column*/
+	.container2 .contactInfo2
+	{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	}
+
+/*here, I have styled the box of div icon which is include in contact us page*/	
+	.container2 .contactInfo2 .box
+	{
+	position: relative;
+	padding: 10px 50px;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: -20px;
+	}
+
+/*this was helped to put icins(phone, mail,...) to the circle*/
+	.container2 .contactInfo2 .box .icon
+	{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+	margin-top: -10px;
+	}
+	
+	.container2 .contactInfo2 .box .text
+	{
+	margin-bottom: 50px;
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+	}
+	
+/*according to this h3 has changed in the contact us page*/
+	.container2 .contactInfo2 .box .text h3
+	{
+	font-weight: 500;
+	color: #00bcd4;
+	}
+/*below I have modify the form of contact us*/
+	.contactForm
+	{
+	width: 40%;
+	padding: 40px;
+	padding-top:20px;
+	padding-bottom: 40px;
+	background: #fff;
+	margin-bottom: 80px;
+	margin-right: -50px;
+	margin-left:70px;
+	}
+	
+	.contactForm h2
+	{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+	text-align: left;
+	}
+	
+	.contactForm .inputBox
+	{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	}
+	
+/*Here I have changed the box type of form inputs*/
+	.contactForm .inputBox  input,
+	.contactForm .inputBox  textarea
+	{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+	}
+
+/*Here modification is that we can write on the words of text boxes of the form which is included in contact us form*/
+	.contactForm .inputBox span
+	{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+	}
+
+/*This was helped to, when we are typing in the text boxes tha name are moving to up and are going to be small*/
+	.contactForm .inputBox input:focus ~ span,
+	.contactForm .inputBox input:valid ~ span,
+	.contactForm .inputBox textarea:focus ~ span,
+	.contactForm .inputBox textarea:valid ~ span
+	{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+	}
+	
+	.contactForm .inputBox input[type="submit"]
+	{
+	width: 100px;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	}
+/*------------------------------------------------------------------------------------------------------------------------------
+About Us page styling starts from here
+
+	it's first one is helped to insert the transparent box
+	second was helped to insert the the person photo circle
+	next two help to design tha paragraph and headind 1
+	next one was helped to insert the bottom
+	last one was helped to change the color of the botton when we are going to click
+*/
+
+.container{
+	height: 75vh;
+	width: 30%;
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px;
+	}
+.img{
+	height: 75px;
+	width: 75px;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQreeNgLdGj9RecOMZB12VIVyNevIIAgAv4oB8Vj3PsC9bagxZBsn8S7uL_zCPsmks50mk&usqp=CAU")no-repeat;
+	background-size: cover;
+	border-radius: 50px;
+	background-position: center;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.container h1{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+	text-align: left;
+	color: white;
+	margin-top: 50px;
+}
+.container p{
+	color: white;
+	margin-top: 55px;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: large;
+}
+.btn{
+	background: no-repeat;
+	outline: none;
+	border: 1px solid white;
+	color: white;
+	width: 50%;
+	padding: 7px 15px;
+	font-size: large;
+	cursor: pointer;
+	transition: 0.3s ease;
+	margin-top: 55px;
+}
+.btn:hover{
+	background: white;
+	color: black;
+}
+	
+	

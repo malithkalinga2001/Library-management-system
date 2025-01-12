@@ -1,0 +1,50 @@
+/*-----------------------------------------------------------------------------------------------------------------------------
+This is for login page.*/
+
+center{
+	position:center;
+}
+#allTheThings{
+	width: 90%;
+	max-width: 800px;
+	text-align: center;
+	margin: 10% auto;
+	font-size: 1.3rem;
+	color: white;
+	display: block;
+	background-color: white;
+	position: absolute;
+	margin-left: 20%;
+	margin-right: 80%;
+	padding-top: 30px;
+	height: 60%;
+	background: rgba(0, 0, 0, .8); /*same as work-> opacity: .8;*/
+}
+#loga{
+	color: white;
+	text-decoration: none;
+}
+
+#member{
+	display: inline-block;
+}
+
+#verticalLine {
+	display: inline-block;
+	margin-left: 20px;
+    border-left: solid #343642;
+}
+
+#librarian-link{
+	margin-left: 20px;
+}
+
+#member, #librarian
+{
+	transition: all .2s ease-in-out;
+}
+
+#member:hover, #librarian:hover
+{
+	transform: scale(1.1);
+}

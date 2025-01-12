@@ -1,0 +1,165 @@
+/*-----------------------------------------------------------------------------------------------------------------------------
+home and home moving ads bar starts from here*/
+
+
+.boxes{
+	background-color: black;
+	background: rgba(0, 0, 0, .8);
+	height: 900px;
+	width: 80%;
+	margin: 5px auto;
+	
+}
+.homeAdBox1{
+	
+	height: 50px;
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.homeAdBox1 h2{
+	font-size:35px;
+	text-align:center;
+	color: white;
+	padding-top: 10px;
+}
+.homeAdBox2{
+	height: 500px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.homeAdBox2 .slide{
+   text-align: center;
+   padding:0rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-size: cover !important;
+   background-position: center !important;
+   width: 100%;
+   min-height: 500px;
+}
+
+.homeAdBox2 .slide .Slidecontent{
+   width: 85rem;
+   display:none;
+}
+.homeAdBox2 .swiper-slide-active .Slidecontent{
+   display: inline-block;
+}
+
+.homeAdBox2 .slide .Slidecontent .slideSpan{
+   display: block;
+   font-size: 1.7rem;
+   color: white;
+   padding-bottom: 1rem;
+   animation: fadeIn .2s linear backwards .2s;
+}
+
+.homeAdBox2 .slide .Slidecontent h3{
+   font-size: 3.2vw;
+   color:white;
+   text-transform: uppercase;
+   line-height: 1;
+   text-shadow: text-shadow;
+   padding:1rem 0;
+   animation: fadeIn .2s linear backwards .4s;
+}
+
+.homeAdBox2 .slide .Slidecontent .btn{
+   animation: fadeIn .2s linear backwards .6s;
+   margin-top: 2rem;
+   background: white;
+   color:#322c2c;
+   cursor: pointer;
+   
+}
+.homeAdBox2 .slide .Slidecontent .btn:hover{
+   background: #322c2c;
+   color: white;
+}
+
+
+.homeAdBox2 .swiper-button-next, .homeAdBox2 .swiper-button-prev{
+   top: inherit;
+   left: inherit;
+   bottom: 0;
+   right: 0;
+   height: 4rem;
+   width: 4rem;
+   background: #c0d8e9;
+   color: black;
+}
+
+.homeAdBox2 .swiper-button-next:hover, 
+.homeAdBox2 .swiper-button-prev:hover{
+   background: #0a0402;
+   color:white;
+}
+
+.homeAdBox2 .swiper-button-next::after, 
+.homeAdBox2 .swiper-button-prev::after{
+   font-size: 2rem;
+}
+
+.homeAdBox2 .swiper-button-prev{
+   right: 4rem;
+}
+
+
+.homeAdBox3{
+	height: 200px;
+	width: 100%;
+	margin: 35px auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.homeAdBox3 .homeAdBoxSub1{
+	height: 220px;
+	width: 32%;
+	text-align: center;
+	margin: -20px 3%;
+	color: white;
+}
+.homeAdBox3 .homeAdBoxSub2{
+	height: 220px;
+	width: 32%;
+	text-align: center;
+	margin: -220px 33.5%;
+	color: white;
+}
+.homeAdBox3 .homeAdBoxSub3{
+	height: 220px;
+	width: 32%;
+	text-align: center;
+	margin: -219px 64%;
+	color: white;
+}
+.homeAdBox3 h2{
+	font-size: 27px;
+}
+.homeAdBox3 p{
+	border:1px solid #cccccc;
+	height: 220px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.btn{
+	background: no-repeat;
+	outline: none;
+	border: 1px solid white;
+	color: white;
+	width: 50%;
+	padding: 7px 15px;
+	font-size: large;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.btn:hover{
+	background: white;
+	color: black;
+}

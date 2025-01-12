@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------------------------------------------------------------------
+navigation bar starts from here*/
+
+header{
+	height: 60px;
+	width: device-width;
+	background-color: black;
+	text-align: right;
+	
+	/*this is used to carry the navigation ribbon when we scrol down*/
+   position: sticky;
+   top:0; left:0; right:0;
+   z-index: 1000;
+
+}
+
+#menu-btn{
+   font-size: 2.5rem;
+   cursor: pointer;
+   color:white;
+   display: none;
+} 
+
+/*This has used for paddind the navigation bar*/
+header .navbar{
+  padding-top: center;
+  position: right;
+}
+
+/*This has used to design the navigation bar. just like giving shape, color,etc */
+nav .anav{
+ position: relative;
+ width: calc(100% - 60px);
+ margin: 0 auto;
+ background: #000000;
+ z-index: 1;
+ text-align: right;
+ padding-right: 2%;
+}
+
+/*This has used to add and design logo*/
+.logo {
+  width: 25%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+/*This has used to remove for showing the menu icons of navigation bar one by noe as a list. So it is designning inthis part */
+.menu-area li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/*This has used to design the font of the navigation(menu area) bar*/
+.menu-area a {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;    
+}
+
+/*This has used to insert a color when we are clicking the icons of the navigation bar*/
+.menu-area a:hover {
+  background: deeppink;
+  color: #fff;
+}

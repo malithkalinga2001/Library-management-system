@@ -1,0 +1,66 @@
+/*------------------------------------------------------------------------------------------------------------------------------
+About Us page styling starts from here
+
+	it's first one is helped to insert the transparent box
+	second was helped to insert the the person photo circle
+	next two help to design tha paragraph and headind 1
+	next one was helped to insert the bottom
+	last one was helped to change the color of the botton when we are going to click
+*/
+
+.container{
+	height: 75vh;
+	width: 30%;
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px;
+	}
+.img{
+	height: 75px;
+	width: 75px;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQreeNgLdGj9RecOMZB12VIVyNevIIAgAv4oB8Vj3PsC9bagxZBsn8S7uL_zCPsmks50mk&usqp=CAU")no-repeat;
+	background-size: cover;
+	border-radius: 50px;
+	background-position: center;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.container h1{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+	text-align: left;
+	color: white;
+	margin-top: 50px;
+}
+.container p{
+	color: white;
+	margin-top: 55px;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: large;
+}
+.btn{
+	background: no-repeat;
+	outline: none;
+	border: 1px solid white;
+	color: white;
+	width: 50%;
+	padding: 7px 15px;
+	font-size: large;
+	cursor: pointer;
+	transition: 0.3s ease;
+	margin-top: 55px;
+}
+.btn:hover{
+	background: white;
+	color: black;
+}

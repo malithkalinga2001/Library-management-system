@@ -1,0 +1,19 @@
+Member:	
+	username: Malith
+	password: Mpass
+
+	username: Amali
+	password: APass
+
+Librarian
+	username: Librarian
+	password: password
+
+
+note: lastly design booklist of member side. 
+	1. in there, messages are not showing , need to fix that.
+	2. and next, you have to develop pending book request in librarian side.
+		(data is going to the pending book req. table from member side)
+	by the way, in the pending book req. table, book_isbn is saved as Bid in book table with additionally " / ".
+		(dont know it is absolutely correct or not)
+	 
